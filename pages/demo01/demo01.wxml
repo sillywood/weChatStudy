@@ -1,3 +1,13 @@
 <!--pages/demo01/demo01.wxml-->
 <text>pages/demo01/demo01.wxml</text>
 <view>{{msg}}</view>
+
+<view>
+<view wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="id">
+index:{{index}}
+--
+id:{{item.id}}
+--
+name:{{item.name}}
+</view>
+</view>

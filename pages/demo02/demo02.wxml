@@ -1,0 +1,7 @@
+<!--pages/demo02/demo02.wxml-->
+<text>pages/demo02/demo02.wxml</text>
+<view>
+<input type="text" bindinput="changeValue">
+</input>
+<view>{{num}}</view>
+</view>

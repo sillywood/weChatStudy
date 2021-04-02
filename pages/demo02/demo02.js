@@ -1,18 +1,16 @@
-// pages/demo01/demo01.js
+// pages/demo02/demo02.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    "msg":"aaaaa",
-    "list":[{
-      "id":0,
-      "name":"张三"
-    },{
-      "id":1,
-      "name":"李四"
-    }]
+    num:""
+  },
+  changeValue(e){
+    this.setData({
+      num:e.detail.value
+    })
   },
 
   /**
